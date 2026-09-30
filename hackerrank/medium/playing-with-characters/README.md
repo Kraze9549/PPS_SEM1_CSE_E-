@@ -49,7 +49,7 @@ The third line prints the sentence, $sen$.
 **Language:** C  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T19:43:43.560Z  
+**Submitted:** 2026-09-30T19:45:07.196Z  
 
 ```c
 #include <stdio.h>
