@@ -49,14 +49,10 @@ The third line prints the sentence, $sen$.
 **Language:** C  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-30T19:45:07.196Z  
+**Submitted:** 2026-10-04T07:55:10.225Z  
 
 ```c
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
-
 int main() 
 {
     char ch,s[100],sen[100];
