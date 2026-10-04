@@ -1,4 +1,4 @@
-# Conditional Statements in C
+# For Loop in C
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
@@ -52,47 +52,53 @@ Print the appropriate English representation,`even`, or `odd`, based on the cond
 **Language:** C  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-04T04:06:13.047Z  
+**Submitted:** 2026-10-04T06:03:45.776Z  
 
 ```c
 #include <stdio.h>
-int main()
+
+int main() 
 {
-    int n;
-    scanf("%d",&n);
+    int n,a,b;
+    scanf("%d %d", &a, &b);
+   
     
-    if(n==1)
-    printf("one");
-    
-    else if(n==2)
-    printf("two");
-    
-    else if(n==3)
-    printf("three");
-    
-    else if(n==4)
-    printf("four");
-    
-    else if(n==5)
-    printf("five");
-    
-    else if(n==6)
-    printf("six");
-    
-    else if(n==7)
-    printf("seven");
-    
-    else if(n==8)
-    printf("eight");
-    
-    else if(n==9)
-    printf("nine");
-    
-    else 
-    printf("Greater than 9");
-    
-    return 0;
+    for(n = a;n<=b;n++)
+    {
+        if(n==1)
+        {
+        printf("one\n");
+        }
+        else if(n==2)
+        printf("two\n");
+        else if(n==3)
+        printf("three\n");
+        else if(n==4)
+        printf("four\n");
+        else if(n==5)
+        printf("five\n");
+        else if(n==6)
+        printf("six\n");
+        else if(n==7)
+        printf("seven\n");
+        else if(n==8)
+        printf("eight\n");
+        else if(n==9)
+        printf("nine\n");
+
+     else 
+     {
+        if((n&1)==0)
+        {
+        printf("even\n");
+        }
+        else if((n&1)==1)
+        printf("odd");
+     }
+  }   
+  return 0;
 }
+
 
 ```
 
