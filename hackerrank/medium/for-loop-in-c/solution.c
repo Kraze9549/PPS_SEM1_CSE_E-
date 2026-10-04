@@ -6,7 +6,7 @@ int main()
     scanf("%d %d", &a, &b);
    
     
-    for(n = a;n<=b;n++)
+    for(n = a; n <= b; n++)
     {
         if(n==1)
         {
@@ -28,17 +28,12 @@ int main()
         printf("eight\n");
         else if(n==9)
         printf("nine\n");
-
-     else 
-     {
-        if((n&1)==0)
-        {
+        else if((n&1)==0)
         printf("even\n");
-        }
         else if((n&1)==1)
-        printf("odd");
-     }
-  }   
+        printf("odd\n");
+        
+    }
   return 0;
 }
 
