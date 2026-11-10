@@ -10,7 +10,7 @@ int main()
     a[4-i]=temp;
   }
   for(i=0;i<5;i++)
-  printf("%d,1./",a[i]);
+  printf("%d",a[i]);
 
   return 0;
 }
